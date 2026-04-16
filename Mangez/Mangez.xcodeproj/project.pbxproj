@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4151D81D2F91356E0016F6E7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4151D81C2F9135630016F6E7 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4151D8002F9124C30016F6E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		4151D7F22F9124C10016F6E7 /* Mangez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mangez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4151D7FF2F9124C30016F6E7 /* MangezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4151D8092F9124C30016F6E7 /* MangezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4151D81C2F9135630016F6E7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				4151D8022F9124C30016F6E7 /* MangezTests */,
 				4151D80C2F9124C30016F6E7 /* MangezUITests */,
 				4151D7F32F9124C10016F6E7 /* Products */,
+				4151D81C2F9135630016F6E7 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4151D81D2F91356E0016F6E7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
