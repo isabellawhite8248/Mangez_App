@@ -98,7 +98,7 @@ struct ResetPasswordView: View {
                 
                 Spacer()
                 
-                //TODO: implement conditions for success message
+                //TODO: implement conditions for success message, consider making the success/error banners components to resuse them on different screens
 //                HStack(alignment: .top, spacing: 10) {
 //                    Image(systemName: "checkmark.circle")
 //                        .font(.system(size: 34, weight: .regular))
