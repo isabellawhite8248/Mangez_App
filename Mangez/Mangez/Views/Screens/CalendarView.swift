@@ -14,7 +14,7 @@ struct CalendarView: View {
     var body: some View {
         ZStack {
             // Background
-            Color.blue.opacity(0.9)
+            Color(red: 0.08, green: 0.02, blue: 0.45)
                 .ignoresSafeArea()
             
             VStack {
@@ -85,9 +85,6 @@ struct CalendarView: View {
                             
                             Spacer()
                             
-                            Text("Time")
-                                .font(.caption)
-                                .foregroundColor(.gray)
                         }
                         
                         VStack(alignment: .leading, spacing: 8) {
@@ -108,18 +105,25 @@ struct CalendarView: View {
                         .cornerRadius(8)
                         
                         // Time picker placeholder
+                        Text("Time")
+                            .font(.caption)
+                            .foregroundColor(.gray)
+                            .offset(x: 100, y: -150)
                         HStack {
                             Spacer()
                             Text("6:30 PM")
                                 .padding(6)
                                 .background(Color.blue.opacity(0.2))
                                 .cornerRadius(6)
+                                .offset(x: 0, y: -150)
                         }
                     }
                     .padding()
                     .background(Color.white)
                     .cornerRadius(16)
                     .padding()
+                    .frame(width: 400, height: 300)
+                    
                 }
                 
                 // Bottom Nav Bar

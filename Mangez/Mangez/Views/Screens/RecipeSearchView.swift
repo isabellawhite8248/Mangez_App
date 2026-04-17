@@ -21,13 +21,16 @@ struct RecipeSearchView: View {
                 .opacity(0.16)
             
             VStack(spacing: 0) {
-                Spacer().frame(height: 22)
                 
                 // Main card
                 ZStack {
                     RoundedRectangle(cornerRadius: 14)
                         .fill(Color.white.opacity(0.88))
-                        .frame(width: 245, height: 525)
+                        .frame(width: 345, height: 675)
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(Color(red: 0.05, green: 0.08, blue: 0.45))
+                        .frame(width: 300, height: 40)
+                        .offset(x: 0, y: -306)
                     
                     VStack(spacing: 0) {
                         Spacer().frame(height: 12)
@@ -37,9 +40,9 @@ struct RecipeSearchView: View {
                             Button {
                             } label: {
                                 Text("Recipe Search")
-                                    .font(.system(size: 12, weight: .medium, design: .serif))
+                                    .font(.system(size: 16, weight: .medium, design: .serif))
                                     .foregroundColor(Color(red: 0.33, green: 0.34, blue: 0.55))
-                                    .frame(width: 106, height: 28)
+                                    .frame(width: 160, height: 38)
                                     .background(
                                         Capsule()
                                             .fill(Color.white.opacity(0.95))
@@ -49,16 +52,17 @@ struct RecipeSearchView: View {
                                             .stroke(Color(red: 0.18, green: 0.17, blue: 0.43), lineWidth: 2)
                                     )
                             }
+                            .offset(x: 5)
                             
                             Button {
                             } label: {
                                 Text("SavedRecipes")
-                                    .font(.system(size: 12, weight: .bold, design: .serif))
+                                    .font(.system(size: 16, weight: .bold, design: .serif))
                                     .foregroundColor(.white)
-                                    .frame(width: 92, height: 32)
+                                    .frame(width: 149, height: 38)
                                     .background(
                                         RoundedRectangle(cornerRadius: 8)
-                                            .fill(Color(red: 0.05, green: 0.08, blue: 0.45))
+                                            .fill(Color(red: 0.05, green: 0.08, blue: 0.45).opacity(0))
                                     )
                             }
                         }
@@ -75,7 +79,7 @@ struct RecipeSearchView: View {
                             Spacer()
                         }
                         .padding(.horizontal, 8)
-                        .frame(width: 198, height: 32)
+                        .frame(width: 298, height: 32)
                         .background(Color.white.opacity(0.95))
                         .overlay(
                             RoundedRectangle(cornerRadius: 6)
@@ -96,7 +100,7 @@ struct RecipeSearchView: View {
                         // Recipe list section
                         RoundedRectangle(cornerRadius: 10)
                             .fill(Color.white.opacity(0.72))
-                            .frame(width: 198, height: 350)
+                            .frame(width: 298, height: 480)
                             .overlay(
                                 VStack(spacing: 10) {
                                     recipeCard()
@@ -119,6 +123,7 @@ struct RecipeSearchView: View {
                                     }
                                     .padding(.top, 4)
                                 }
+                                    .offset(y: -90)
                                     .padding(.top, 10)
                             )
                         
@@ -127,10 +132,10 @@ struct RecipeSearchView: View {
                         // Add tags button
                         Button {
                         } label: {
-                            Text("+AddTags")
+                            Text("+ Add Tags")
                                 .font(.system(size: 16, weight: .medium, design: .serif))
                                 .foregroundColor(Color(red: 0.15, green: 0.12, blue: 0.42))
-                                .frame(width: 106, height: 30)
+                                .frame(width: 120, height: 30)
                                 .background(
                                     Capsule()
                                         .fill(Color.white.opacity(0.80))
@@ -174,13 +179,14 @@ struct RecipeSearchView: View {
             Capsule()
                 .stroke(Color(red: 0.08, green: 0.08, blue: 0.32), lineWidth: 1.2)
         )
+        .offset(x: -40)
     }
     
     private func recipeCard() -> some View {
         ZStack {
             RoundedRectangle(cornerRadius: 8)
                 .fill(Color.white.opacity(0.96))
-                .frame(width: 185, height: 58)
+                .frame(width: 270, height: 58)
                 .overlay(
                     RoundedRectangle(cornerRadius: 8)
                         .stroke(Color.gray.opacity(0.7), lineWidth: 1.2)
@@ -188,7 +194,7 @@ struct RecipeSearchView: View {
             
             HStack(spacing: 10) {
                 ZStack(alignment: .bottomLeading) {
-                    Image("muffin_placeholder")
+                    Image("food_sample")
                         .resizable()
                         .scaledToFill()
                         .frame(width: 55, height: 44)
@@ -206,11 +212,13 @@ struct RecipeSearchView: View {
                         .offset(x: -4, y: 7)
                 }
                 .frame(width: 58, height: 44)
+                .offset(x: -25)
                 
                 VStack(alignment: .leading, spacing: 2) {
                     Text("Recipe Name")
                         .font(.system(size: 12, weight: .semibold, design: .serif))
                         .foregroundColor(Color(red: 0.34, green: 0.34, blue: 0.34))
+                        .frame(width: 100)
                     
                     HStack(spacing: 4) {
                         Image(systemName: "clock")
@@ -220,8 +228,11 @@ struct RecipeSearchView: View {
                         Text("Prep Time")
                             .font(.system(size: 10, weight: .regular, design: .serif))
                             .foregroundColor(.gray)
+                            .frame(width: 50)
                     }
+                    .offset(x: 10)
                 }
+                .offset(x: -40)
                 
                 Spacer(minLength: 2)
                 
@@ -234,6 +245,7 @@ struct RecipeSearchView: View {
                         .font(.system(size: 15))
                         .foregroundColor(.gray.opacity(0.85))
                 }
+                .offset(x: 20)
             }
             .padding(.horizontal, 8)
             .frame(width: 185, height: 58)

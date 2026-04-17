@@ -25,7 +25,7 @@ struct GroceryListView: View {
     var body: some View {
         ZStack {
             // Background
-            Color.blue.opacity(0.9)
+            Color(red: 0.08, green: 0.02, blue: 0.45)
                 .ignoresSafeArea()
             
             VStack {
@@ -42,6 +42,7 @@ struct GroceryListView: View {
                             HStack {
                                 Image(systemName: "plus")
                                 Text("Add Item")
+                                    .foregroundColor(Color(red: 0.08, green: 0.02, blue: 0.45))
                             }
                             .padding(.horizontal, 12)
                             .padding(.vertical, 6)
@@ -51,8 +52,10 @@ struct GroceryListView: View {
                     }
                     
                     Text("Grocery List")
-                        .font(.title)
-                        .fontWeight(.semibold)
+                        .font(.system(size: 40, weight: .semibold, design: .serif))
+                        .foregroundColor(Color(red: 0.08, green: 0.02, blue: 0.45))
+                        .padding(.horizontal, 8)
+                        .offset(x: 40)
                     
                     Divider()
                     
@@ -80,8 +83,13 @@ struct GroceryListView: View {
                 .background(Color.white.opacity(0.85))
                 .cornerRadius(20)
                 .padding(.horizontal)
-                
-                Spacer()
+
+                Image("background_floral")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 180, height: 190)
+                    .opacity(0.65)
+                    .offset(x: -140, y: -510)
                 
                 BottomNavigationBar(selectedTab: .list)
             }
