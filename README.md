@@ -270,6 +270,7 @@ This product is successful if users say:
 
 ## Wireframes
 <img width="1334" height="712" alt="Screenshot 2026-04-20 at 11 35 02 AM" src="https://github.com/user-attachments/assets/31d167dd-2bf7-4f4e-bbad-2b0c5c828719" />
+
 [View full interactive wireframe here via Penpot](https://tinyurl.com/3jjnmfct)
 
 ---
