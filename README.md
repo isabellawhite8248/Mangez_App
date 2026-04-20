@@ -1,4 +1,3 @@
-```markdown id="mangez-readme-001"
 # Mangez — Meal Planning for Shared Living
 
 ## Overview
