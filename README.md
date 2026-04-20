@@ -267,9 +267,10 @@ This product is successful if users say:
 
 ---
 
-## Wireframes
 
-[https://design.penpot.app/#/view?file-id=0075361e-ccf8-8015-8007-dc51e0cc4483&page-id=0075361e-ccf8-8015-8007-dc51e0cc4484&section=interactions&index=0&share-id=30c95215-44cf-80fa-8007-de8a8d8c08fc](https://design.penpot.app/#/view?file-id=0075361e-ccf8-8015-8007-dc51e0cc4483&page-id=0075361e-ccf8-8015-8007-dc51e0cc4484&section=interactions&index=0&share-id=30c95215-44cf-80fa-8007-de8a8d8c08fc)
+## Wireframes
+<img width="1334" height="712" alt="Screenshot 2026-04-20 at 11 35 02 AM" src="https://github.com/user-attachments/assets/31d167dd-2bf7-4f4e-bbad-2b0c5c828719" />
+[view full interactive wireframe here via penpot](https://design.penpot.app/#/view?file-id=0075361e-ccf8-8015-8007-dc51e0cc4483&page-id=0075361e-ccf8-8015-8007-dc51e0cc4484&section=interactions&index=0&share-id=30c95215-44cf-80fa-8007-de8a8d8c08fc)
 
 ---
 
