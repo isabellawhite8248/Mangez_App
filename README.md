@@ -1,4 +1,4 @@
-<img width="402" height="164" alt="logo" src="https://github.com/user-attachments/assets/5fe1e1e8-18a4-4b7b-9009-27bb76734b06" />
+<img width="302" height="94" alt="logo" src="https://github.com/user-attachments/assets/5fe1e1e8-18a4-4b7b-9009-27bb76734b06" />
 
 # Meal Planning for Shared Living
 
