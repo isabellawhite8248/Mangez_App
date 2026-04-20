@@ -68,6 +68,7 @@ Mangez addresses this by combining two key questions:
 4. Assign it to a day  
 5. Review missing ingredients  
 6. Share the plan with the household  
+<img width="627" height="272" alt="user_flow" src="https://github.com/user-attachments/assets/bf980272-26a6-481e-b082-767a3655be6c" />
 
 ---
 
