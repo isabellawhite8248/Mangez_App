@@ -95,7 +95,7 @@ Mangez addresses this by combining two key questions:
 ---
 
 ## Architecture (Planned)
-his diagram reflects **Mangez as a frontend-first MVP today**, while showing the **planned backend architecture** for future development.
+This diagram reflects **Mangez as a frontend-first MVP today**, while showing the **planned backend architecture** for future development.
 
 ```mermaid
 flowchart LR
