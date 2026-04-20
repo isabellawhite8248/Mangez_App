@@ -274,7 +274,7 @@ This product is successful if users say:
 
 
 
-[View full interactive wireframe here via Penpot](https://tinyurl.com/3jjnmfct)
+[View full interactive wireframe](https://tinyurl.com/3jjnmfct)
 
 ---
 
