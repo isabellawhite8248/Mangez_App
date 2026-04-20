@@ -269,7 +269,7 @@ This product is successful if users say:
 
 
 ## Wireframes
-<img width="434" height="645" alt="Screenshot 2026-04-20 at 12 03 50 PM" src="https://github.com/user-attachments/assets/7062cb49-5a88-4f64-aa01-12a8400df361" /><img width="434" height="645" alt="Screenshot 2026-04-20 at 12 04 36 PM" src="https://github.com/user-attachments/assets/483553f9-a806-492f-a994-567221da23eb" />
+<img width="434" height="645" alt="Screenshot 2026-04-20 at 12 03 50 PM" src="https://github.com/user-attachments/assets/7062cb49-5a88-4f64-aa01-12a8400df361" />
 
 
 
