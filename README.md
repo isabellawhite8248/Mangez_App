@@ -123,7 +123,7 @@ Authorization: Bearer <token>
 
 ```
 
-Token is issued upon user login/registration (planned).
+Token is issued upon user login/registration (currently in development, will update more once finished).
 
 ---
 
@@ -239,7 +239,7 @@ GET /grocery-list
 
 * Limited recipe dataset
 * Basic ingredient matching
-* No image recognition (planned)
+* No image recognition (plan to incoporate this into latter releases)
 * Manual ingredient entry
 
 ---
@@ -272,9 +272,9 @@ This product is successful if users say:
 
 ## Author
 
-**Your Name**
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)
-Portfolio: [https://yourportfolio.com](https://yourportfolio.com)
+**Isabella White**
+GitHub: [https://github.com/isabellawhite8248](https://github.com/isabellawhite8248)
+Email: isabellaxwhitex2002@gmail.com
 
 ---
 
