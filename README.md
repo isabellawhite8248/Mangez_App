@@ -1,6 +1,6 @@
-<img width="402" height="164" alt="logo" src="https://github.com/user-attachments/assets/5fe1e1e8-18a4-4b7b-9009-27bb76734b06" />
+<img width="602" height="364" alt="logo" src="https://github.com/user-attachments/assets/5fe1e1e8-18a4-4b7b-9009-27bb76734b06" />
 
-# Mangez — Meal Planning for Shared Living
+# Meal Planning for Shared Living
 
 ## Overview
 **Mangez** is a meal planning application designed to help households decide what to eat and when to eat together. By combining ingredient-based recipe suggestions with shared scheduling, the app reduces decision fatigue and helps users make better use of the food they already have.
