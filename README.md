@@ -273,7 +273,9 @@ This product is successful if users say:
 ## Author
 
 **Isabella White**
+
 GitHub: [https://github.com/isabellawhite8248](https://github.com/isabellawhite8248)
+
 Email: isabellaxwhitex2002@gmail.com
 
 ---
