@@ -74,7 +74,7 @@ Mangez addresses this by combining two key questions:
 
 ## Screens & UX
 
-#Main App Flow
+**Main App Flow**
 
 <img width="864" height="641" alt="Screenshot 2026-04-20 at 12 33 09 PM" src="https://github.com/user-attachments/assets/fec08f7d-9517-4e6d-8fd7-20899bbda1b7" />
 
