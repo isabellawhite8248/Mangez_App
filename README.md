@@ -102,7 +102,54 @@ Mangez addresses this by combining two key questions:
 ---
 
 ## Architecture (Planned)
-<diagram here: system architecture>
+his diagram reflects **Mangez as a frontend-first MVP today**, while showing the **planned backend architecture** for future development.
+
+```mermaid
+flowchart LR
+    subgraph A[Currently Implemented]
+        FE[Frontend Client\nMobile-first UI / responsive web app]
+        MOCK[(Local Storage / Mock Data)]
+        FE --> MOCK
+    end
+
+    subgraph B[Proposed Full-Stack Architecture]
+        API[API / Application Backend]
+        AUTH[Auth & User Service]
+        HOUSE[Household & Scheduling Service]
+        INV[Inventory Service]
+        REC[Recipe Matching Engine]
+        GROC[Grocery List Service]
+        NOTIF[Notifications Service]
+
+        DB[(Primary Database)]
+        RECIPE_DB[(Recipe Data Store)]
+        ANALYTICS[(Analytics / Logs)]
+
+        API --> AUTH
+        API --> HOUSE
+        API --> INV
+        API --> REC
+        API --> GROC
+        API -.-> NOTIF
+
+        AUTH --> DB
+        HOUSE --> DB
+        INV --> DB
+        REC --> RECIPE_DB
+        GROC --> DB
+        NOTIF -.-> ANALYTICS
+    end
+
+    FE --> API
+
+    EXT[Optional External APIs\nOCR / barcode • grocery maps • nutrition APIs • push notifications]
+    REC -.-> EXT
+    NOTIF -.-> EXT
+```
+
+### Suggested README caption
+**Mangez architecture (planned):** the frontend MVP is built first, with a future backend supporting shared households, meal scheduling, ingredient-based recipe matching, grocery gap detection, and optional integrations like OCR, nutrition, and grocery store mapping.
+
 
 ---
 
